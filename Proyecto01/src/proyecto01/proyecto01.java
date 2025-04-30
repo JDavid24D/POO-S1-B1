@@ -17,16 +17,19 @@ public class proyecto01 {
         res = a - b;
 
         int contador = 1;
-//        while(contador <= 100){
-//            System.out.println(contador+ ". No debo llegar tarde a clases");
-//            contador++;
-//        }
+/*        while(contador <= 100){
+            System.out.println(contador+ ". No debo llegar tarde a clases");
+            contador++;
+        }
 
         do {
             System.out.println(contador + ".No debo llegar tarde a clases");
             contador++;
-        } while (contador <= 100);
-        
+       } while (contador <= 100);
+*/       
+        for(int i = 100; i >=1; i= i-2){
+             System.out.println(i+ ".No debo llegar tarde a clases");
+        }
         System.out.println("Halo mundo\n" + "Resultado resta: " + res);
     }
 }
